@@ -7,11 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
 
+    @IBOutlet weak var Text: UITextView!
+    @IBOutlet weak var City: UILabel!
+    @IBOutlet weak var Birthday: UILabel!
+    @IBOutlet weak var Name: UILabel!
+    @IBOutlet weak var Image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
